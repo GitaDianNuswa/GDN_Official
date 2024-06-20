@@ -14,7 +14,7 @@ export default function WYSIWYG({sendDataToParent, Values}) {
     return (
       <>
         <Editor
-        apiKey='8l4kymyukljen4bk976oi4csq28khibql3qvnxfui2v6rtya'
+        apiKey='piw7mpn9vvaaf9wzic1edtrftyhrglxwuw80wf6flle5tm4v'
           onInit={(evt, editor) => editorRef.current = editor}
           initialValue={Values}
           onChange={log}

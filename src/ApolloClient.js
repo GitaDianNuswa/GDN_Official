@@ -5,19 +5,19 @@ import { getMainDefinition } from '@apollo/client/utilities';
 import { WebSocketLink } from '@apollo/client/link/ws';
 
 const httpLink = new HttpLink({
-    uri: "https://factual-seahorse-82.hasura.app/v1/graphql",
+    uri: "https://loved-stork-39.hasura.app/v1/graphql",
     headers:{
-        "x-hasura-admin-secret": "lxAAmkuVhPq2026onv4G69h783KHtHceoy2Ot7j1mkw37I9vAofSe64gQTKtb3ge"
+        "x-hasura-admin-secret": "559JwtdsGiWo6sUrRS6c9DgrzbIevwJzivIX2Ifl6zR3rYy3pmQD0NLXXZIp8t3h"
     }
 });
 
 const wsLink = new WebSocketLink({
-    uri: "wss://factual-seahorse-82.hasura.app/v1/graphql",
+    uri: "wss://loved-stork-39.hasura.app/v1/graphql",
     options: {
         reconnect: true,
         connectionParams: {
             headers:{
-                "x-hasura-admin-secret": "lxAAmkuVhPq2026onv4G69h783KHtHceoy2Ot7j1mkw37I9vAofSe64gQTKtb3ge"
+                "x-hasura-admin-secret": "559JwtdsGiWo6sUrRS6c9DgrzbIevwJzivIX2Ifl6zR3rYy3pmQD0NLXXZIp8t3h"
             }
         }
     }

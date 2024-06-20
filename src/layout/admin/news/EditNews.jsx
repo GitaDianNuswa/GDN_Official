@@ -81,9 +81,9 @@ const [url, setUrl] = useState("");
   const uploadImage = async (file) => {
     const data = new FormData();
     data.append("file", file);
-    data.append("upload_preset", "dm9ake9c");
-    data.append("cloud_name", "dfobrfowy");
-    await fetch("https://api.cloudinary.com/v1_1/dfobrfowy/image/upload", {
+    data.append("upload_preset", "gdnofficial");
+    data.append("cloud_name", "dpfzxkihs");
+    await fetch("https://api.cloudinary.com/v1_1/dpfzxkihs/image/upload", {
       method: "post",
       body: data,
     })
